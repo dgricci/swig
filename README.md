@@ -1,13 +1,14 @@
 % Environnement Haskell pour pandoc
 % Didier Richard
 % rév. 0.0.1 du 17/07/2016
+% rév. 0.0.2 du 20/10/2016
 
 ---
 
 # Building #
 
 ```bash
-$ docker build -t dgricci/swig:0.0.1 -t dgricci/swig:latest .
+$ docker build -t dgricci/swig:0.0.2 -t dgricci/swig:latest .
 ```
 
 ## Behind a proxy (e.g. 10.0.4.2:3128) ##
@@ -16,7 +17,7 @@ $ docker build -t dgricci/swig:0.0.1 -t dgricci/swig:latest .
 $ docker build \
     --build-arg http_proxy=http://10.0.4.2:3128/ \
     --build-arg https_proxy=http://10.0.4.2:3128/ \
-    -t dgricci/swig:0.0.1 -t dgricci/swig:latest .
+    -t dgricci/swig:0.0.2 -t dgricci/swig:latest .
 ```
 
 ## Build command with arguments default values ##
@@ -27,7 +28,7 @@ $ docker build \
     --build-arg BOOST_VERSION=1_61_0 --build-arg BOOST_DOWNLOAD_URL=https://downloads.sourceforge.net/boost/boost_1_61_0.tar.gz \
     --build-arg PCRE_VERSION=8.39 --build-arg PCRE_DOWNLOAD_URL=https://ftp.csx.cam.ac.uk/pub/software/programming/pcre/pcre-8.39.tar.gz \
     --build-arg SWIG_VERSION=3.0.10 --build-arg SWIG_DOWNLOAD_URL=https://downloads.sourceforge.net/swig/swig-3.0.10.tar.gz \
-    -t dgricci/swig:0.0.1 -t dgricci/swig:latest .
+    -t dgricci/swig:0.0.2 -t dgricci/swig:latest .
 ```
 
 # Use #

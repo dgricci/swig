@@ -1,5 +1,5 @@
 ## Dockerfile for swig environment
-FROM dgricci/build-jessie:0.0.1
+FROM dgricci/build-jessie:0.0.2
 MAINTAINER Didier Richard <didier.richard@ign.fr>
 
 # install libpython2.7-dev to prevent fatal error when compiling boost
