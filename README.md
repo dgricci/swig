@@ -1,9 +1,14 @@
 % SWIG
 % Didier Richard
-% rév. 0.0.1 du 17/07/2016
-% rév. 0.0.2 du 20/10/2016
-% rév. 0.0.3 du 19/02/2017
-% rév. 0.0.4 du 11/03/2017
+% 12/03/2017
+
+---
+
+revision:
+    - 0.0.1 : 17/07/2016
+    - 0.0.2 : 20/10/2016
+    - 0.0.3 : 19/02/2017
+    - 0.0.4 : 11/03/2017
 
 ---
 
@@ -45,7 +50,7 @@ $ docker run --rm dgricci/swig
 
 SWIG Version 3.0.12
 
-Compiled with g++ [x86_64-pc-linux-gnu]
+Compiled with g++ [x86_64-unknown-linux-gnu]
 
 Configured options: +pcre
 
